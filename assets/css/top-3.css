@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: var(--gap);
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .top-3-content h1, .top-3-content p{

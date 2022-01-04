@@ -9,7 +9,7 @@
 .intro-text-content{
     position: relative;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
 }
 
@@ -29,5 +29,5 @@
 
 .intro-img-content img{
     max-width: 100%;
-    height: 100%;
+    min-height: 100%;
 }

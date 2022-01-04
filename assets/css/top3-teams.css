@@ -1,0 +1,39 @@
+.grid{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    gap: var(--gap);
+    counter-reset: grid-counter;
+}
+
+.grid-head-content{
+    line-height: 8rem;
+    margin-top: 5.5rem;
+}
+
+.grid-main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+    grid-template-rows: 1fr;
+    margin-top: 6rem;
+    gap:var(--gap);
+}
+
+.grid-main-content h3{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    font-size: 3rem;
+    padding-left: 5rem;
+    padding-bottom: 1em;
+}
+
+.grid-main-content h3::before{
+    counter-increment: grid-counter;
+    content: counter(grid-counter);
+    position: absolute;
+    font-size: 8rem;
+    font-style: italic;
+    top: -4rem;
+    left:-2rem;
+    transform: rotate(3deg);
+}

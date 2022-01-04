@@ -1,0 +1,30 @@
+.gallery{
+    color: var(--primary-color);
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    gap:var(--gap);
+}
+
+.gallery img{
+    width: 320px;
+    height: 320px;
+}
+
+.gallery-title p{
+    margin-top: 2rem;
+}
+
+.gallery-imgs{
+    display: grid;
+    gap: var(--gap);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.gallery-imgs img {
+    transition: all 300ms ease-in-out;
+}
+
+.gallery-imgs img:hover{
+    transform: translate(-3%, 3%) scale(1.1);
+}
