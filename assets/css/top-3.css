@@ -1,0 +1,14 @@
+.top-3-content{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap);
+    height: 100vh;
+}
+
+.top-3-content h1, .top-3-content p{
+    color: var(--primary-color);
+    max-width: 85%; 
+    text-align: center;
+}

@@ -6,7 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="./assets/css/tags.css">
+    <link rel="stylesheet" href="./assets/css/templates.css">
+    <link rel="stylesheet" href="./assets/css/constants.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/intro.css">
+    <link rel="stylesheet" href="./assets/css/top-3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -14,20 +20,55 @@
         rel="stylesheet">
 </head>
 
-<body>
-    <section class="main-bg section">
-        <div class="main-content">
-            <h1>Lorem</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ex quibusdam at, pariatur, illo temporibus perferendis itaque eligendi maxime voluptas vero quia ipsum modi id atque repellat eius saepe expedita?</p>
+<body class="main-bg">
+    
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1><a href="#">LOGO</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#top">top 3</a></li>
+                    <li><a href="#">gallery</a></li>
+                    <li><a href="#">work</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section class="main-bg section" id="intro">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Recife é a capital do nordeste</h2>
+                <p>Recife, a capital do estado de Pernambuco, no nordeste do Brasil, distingue-se pelos seus vários rios, pontes, ilhéus e penínsulas. Recife Antigo, na própria ilha junto ao porto, é o centro histórico da cidade antiga que data do século XVI. A sul, a popular Praia de Boa Viagem é protegida por recifes e está ladeada de blocos de apartamentos elevados, hotéis modernos e restaurantes.</p>
+            </div>
+    
+            <div class="intro-img-content">
+                <img src="./assets/img/javascript.svg" alt="Logo HTML, CSS e JAVASCRIPT">
+            </div>
         </div>
     </section>
 
-    <section class="white-bg section">
-        <div class="main-content">
-            <h1>Lorem</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ex quibusdam at, pariatur, illo temporibus perferendis itaque eligendi maxime voluptas vero quia ipsum modi id atque repellat eius saepe expedita?</p>
-        </div>
+    <section class="white-bg section" id="top">
+        <div class="main-content top-3-content">
+            <h1>TOP 3 PLACES</h1>
+            <p>
+                Ir ao Recife e não conhecer o Recife Antigo é como ir para Paris e não ver a Torre Eiffel. Vá e aprecie o centro histórico com construções coloniais, as praças, museus, ruas e atrações turísticas mais tradicionais da cidade!A região do Recife Antigo ou bairro do Recife e suas adjacências são contornadas pelo oceano e o Rio Capibaribe. E o legal é que dá para fazer o tour a pé!
+            </p>
+
+            <p>
+                Fundado em 2002 pelo colecionador e empresário pernambucano Ricardo Brennand, o complexo de 30.000 metros de arte está no bairro da Várzea. A propriedade já encanta de cara com a avenida de palmeiras imperiais embelezando sua entrada.No interior do instituto tem um enorme salão de exposições muito estruturado e com equipamentos tecnológicos. Aproveite para tomar um café apreciando os jardins com várias esculturas em mármore branco!
+            </p>
+
+            <p>
+                Visite a oficina de cerâmica do artista Francisco Brennand, primo do Ricardo Brennand. Fundada em 1971, localizada nas ruínas da olaria criada pelo pai de Francisco no início do século XX.O ateliê tem um grande e maravilhoso jardim, projetado por Burle Marx, onde ele expõe um pouco das suas criações.
+            </p>
+        </div> 
     </section>
+    
 </body>
 
 </html>
