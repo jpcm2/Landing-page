@@ -11,6 +11,7 @@ no módulo destinado ao ensino de HTML5 e CSS3.
 Durante o projeto utilizei:
 - Uso de tags em HTML e seletores de CSS
 - Variáveis para CSS
+- Media queries
 - Flexbox / Grids
 - Pseudo-elementos / Pseudo-classes
 - Design respansivo
