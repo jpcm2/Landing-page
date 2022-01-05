@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-https://wmazoni-sds1.netlify.app
+https://jpcm2landingpage.netlify.app/
 
 O projeto foi desenvolvido durante o curso "Curso de JavaScript e TypeScript do básico ao avançado 2021" 
 no módulo destinado ao ensino de HTML5 e CSS3.
