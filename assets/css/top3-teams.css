@@ -37,3 +37,9 @@
     left:-2rem;
     transform: rotate(3deg);
 }
+
+@media (max-width: 800px){
+    .grid-main-content{
+        grid-template-columns: 1fr;
+    }
+}

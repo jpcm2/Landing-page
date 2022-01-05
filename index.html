@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./assets/css/intro.css">
     <link rel="stylesheet" href="./assets/css/top-3.css">
     <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="./assets/css/gallery.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -24,11 +25,13 @@
 
 <body class="main-bg">
     
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
     <aside class="menu white-bg">
         <div class="main-content menu-content">
             <h1><a href="#">LOGO</a></h1>
             <nav>
-                <ul>
+                <ul onclick="getElementByID('close-menu').checked= false;">
                     <li><a href="#intro">intro</a></li>
                     <li><a href="#top">top 3</a></li>
                     <li><a href="#gallery">gallery</a></li>
@@ -296,8 +299,11 @@
     </section>
     
     <footer class="white-bg footer" id="footer">
-        <p><a href="https://github.com/jpcm2" target="_blank"> Feito por João Pedro Campos de Medeiros</a></p>
+        <p><a href="https://github.com/jpcm2" target="_blank"> Feito por João Pedro Campos de Medeiros <span>&hearts;</span>
+        </a></p>
     </footer>
+
+    <a class="back-to-top" href="#intro">TOP</a>
 </body>
 
 </html>

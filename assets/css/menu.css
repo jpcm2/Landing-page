@@ -59,3 +59,61 @@
     background-color: var(--secondary-color);
     transition: all 300ms ease-in-out;
 }
+
+
+.close-menu{
+    display: none;
+    position: none;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+
+@media (max-width: 800px){
+    .menu{
+        bottom: 0;
+        text-align: center;
+        display: none;
+    }
+
+    .menu-content{
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+    }
+
+    .menu-content ul{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .close-menu-label::after{
+        content:'≡';
+        position: fixed;
+        z-index: 2;
+        top: 2rem;
+        right: 2rem;
+        background-color: var(--primary-color);
+        color: var(--white-color);
+        font-size: 3rem;
+        line-height: 3rem;
+        height: 3rem;
+        text-align: center;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+    /* &times; */
+    .close-menu:checked~.menu{
+        display:block;
+    }
+
+    .close-menu:checked~.close-menu-label::after{
+        display:block;
+        content: '×';
+    }
+
+    .menu-spacing{
+        display: none;
+    }
+}
