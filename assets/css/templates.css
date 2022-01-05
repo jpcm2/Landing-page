@@ -8,6 +8,7 @@
 
 .white-bg{
     background-color: #FFFFFF;
+    color: var(--primary-color)
 }
 
 .main-content{
@@ -23,3 +24,4 @@
 .menu-spacing{
     height: 65px;
 }
+

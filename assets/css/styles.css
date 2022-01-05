@@ -30,18 +30,18 @@
     overflow: hidden;
 }
 
-@media (min-width:380px) and (max-width:778){
-    .gallery-imgs{
-        display: grid;
-        gap: var(--gap);
-        grid-template-columns: repeat(2, 1fr);
-    }
-}   
-@media (max-width:380px){
-    .gallery-imgs{  
-        display: grid;
-        gap: var(--gap);
-        grid-template-columns: repeat(1, 1fr);
-    }
-    
+.responsive-table{
+    width: 80%;
+    overflow: auto;
+}
+
+.footer{
+    height: 7.5rem;
+    text-align: center;
+    color:#444;
+}
+
+.footer p{
+    padding-top: 2.2rem;
+    font-size: 1.6rem;
 }

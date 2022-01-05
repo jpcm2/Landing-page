@@ -1,6 +1,6 @@
 .intro-content{
     display: grid;
-    top: -6.5rem;
+    /* top: -6.5rem; */
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
     min-height: 100vh;
