@@ -18,7 +18,7 @@ Durante o projeto utilizei:
 - Deploy do projeto
 
 ## Layout mobile
-![Mobile 1](https://github.com/jpcm2/Landing-page/blob/master/assets/img/mobile1.png) 
+![Mobile 1](https://github.com/jpcm2/Landing-page/blob/master/assets/img/mobile1.png)
 ![Mobile 2](https://github.com/jpcm2/Landing-page/blob/master/assets/img/mobile2.png)
 ![Mobile 3](https://github.com/jpcm2/Landing-page/blob/master/assets/img/mobile3.png)
 
